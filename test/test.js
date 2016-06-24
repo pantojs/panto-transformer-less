@@ -14,9 +14,9 @@ const assert = require('assert');
 const panto = require('panto');
 const LessTransformer = require('../');
 
-describe('panto-transformer-read', () => {
+describe('panto-transformer-less', () => {
     describe('#transform', () => {
-        it('should get origin if content is not null/undefined', done => {
+        it('should less', done => {
             const file = {
                 filename: 'a.js',
                 content: '.parent {.child{left: 2px}font-size:14px}'
