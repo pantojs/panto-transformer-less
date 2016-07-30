@@ -6,11 +6,11 @@
 ```js
 panto.loadTransformer('less');
 
-panto.pick('**/*.less').pipe(panto.read()).pipe(panto.less({
+panto.pick('**/*.less').read().less({
     lessOptions: {
         compress: true
     }
-})).end();
+});
 ```
 
 ## options
