@@ -1,5 +1,5 @@
 # panto-transformer-less
-[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url] [![Coverage Status][coveralls-image]][coveralls-url]
 
 [Less](http://lesscss.org) transformer for panto.
 
@@ -26,3 +26,5 @@ panto.pick('**/*.less').read().less({
 [david-dm-image]:https://david-dm.org/pantojs/panto-transformer-less.svg
 [david-dm-dev-url]:https://david-dm.org/pantojs/panto-transformer-less#info=devDependencies
 [david-dm-dev-image]:https://david-dm.org/pantojs/panto-transformer-less/dev-status.svg
+[coveralls-image]:https://coveralls.io/repos/github/pantojs/panto-transformer-less/badge.svg?branch=master
+[coveralls-url]:https://coveralls.io/github/pantojs/panto-transformer-less?branch=master
